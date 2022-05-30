@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-bk_automation_testNG_prototype" class="navigator-link">
+              <span class="suite-name border-failed">bk_automation_testNG_prototype</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-bk_automation_testNG_prototype" class="navigator-link ">
+                    <span>E:\Aditi\NIdaan_Code\bk_automation_testng_prototype-master\bk_automation_testNG_prototype\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-bk_automation_testNG_prototype" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-bk_automation_testNG_prototype" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-bk_automation_testNG_prototype" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-bk_automation_testNG_prototype" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-bk_automation_testNG_prototype" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-bk_automation_testNG_prototype" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-bk_automation_testNG_prototype" class="hide-methods failed suite-bk_automation_testNG_prototype"> (hide)</a> <!-- hide-methods failed suite-bk_automation_testNG_prototype -->
+                      <a href="#" panel-name="suite-bk_automation_testNG_prototype" class="show-methods failed suite-bk_automation_testNG_prototype"> (show)</a> <!-- show-methods failed suite-bk_automation_testNG_prototype -->
+                    </span>
+                    <div class="method-list-content failed suite-bk_automation_testNG_prototype">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-bk_automation_testNG_prototype" title="com.bk_automation_testNG_prototype.testScripts.loginPage.Bk_ContactUsTest_NegativeCase" class="method navigator-link" hash-for-method="fillContactInformation_NegativeCase">fillContactInformation_NegativeCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-bk_automation_testNG_prototype -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-bk_automation_testNG_prototype" class="hide-methods passed suite-bk_automation_testNG_prototype"> (hide)</a> <!-- hide-methods passed suite-bk_automation_testNG_prototype -->
+                      <a href="#" panel-name="suite-bk_automation_testNG_prototype" class="show-methods passed suite-bk_automation_testNG_prototype"> (show)</a> <!-- show-methods passed suite-bk_automation_testNG_prototype -->
+                    </span>
+                    <div class="method-list-content passed suite-bk_automation_testNG_prototype">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-bk_automation_testNG_prototype" title="com.bk_automation_testNG_prototype.testScripts.loginPage.Bk_ContactUsTest_PositiveCase" class="method navigator-link" hash-for-method="fillContactInformation_PositiveCase">fillContactInformation_PositiveCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-bk_automation_testNG_prototype -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-bk_automation_testNG_prototype" class="panel bk_automation_testNG_prototype">
+          <div class="suite-bk_automation_testNG_prototype-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bk_automation_testNG_prototype.testScripts.loginPage.Bk_ContactUsTest_NegativeCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillContactInformation_NegativeCase">
+                  </a> <!-- fillContactInformation_NegativeCase -->
+                  <span class="method-name">fillContactInformation_NegativeCase</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#H1Tag&quot;}
+  (Session info: chrome=100.0.4896.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;BKLAP117&apos;, ip: &apos;192.168.1.29&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\ADITI~1.BAL\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50190}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d2ca3054d18f6b0ced3887ef1c5e5a3
+*** Element info: {Using=id, value=H1Tag}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.isDisplayed(Unknown Source)
+	at com.bk_automation_testNG_prototype.pageObject.Bk_ContactUsPage.navigatedThankYouPage(Bk_ContactUsPage.java:161)
+	at com.bk_automation_testNG_prototype.testScripts.loginPage.Bk_ContactUsTest_NegativeCase.fillContactInformation_NegativeCase(Bk_ContactUsTest_NegativeCase.java:21)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bk_automation_testNG_prototype-class-failed -->
+          <div class="suite-bk_automation_testNG_prototype-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bk_automation_testNG_prototype.testScripts.loginPage.Bk_ContactUsTest_PositiveCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillContactInformation_PositiveCase">
+                  </a> <!-- fillContactInformation_PositiveCase -->
+                  <span class="method-name">fillContactInformation_PositiveCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bk_automation_testNG_prototype-class-passed -->
+        </div> <!-- panel bk_automation_testNG_prototype -->
+        <div panel-name="test-xml-bk_automation_testNG_prototype" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Aditi\NIdaan_Code\bk_automation_testng_prototype-master\bk_automation_testNG_prototype\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;bk_automation_testNG_prototype&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test name=&quot;SignUp Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bk_automation_testNG_prototype.testScripts.loginPage.Bk_ContactUsTest_PositiveCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignUp Test --&gt;
+  &lt;test name=&quot;Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bk_automation_testNG_prototype.testScripts.loginPage.Bk_ContactUsTest_NegativeCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+&lt;/suite&gt; &lt;!-- bk_automation_testNG_prototype --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-bk_automation_testNG_prototype" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for bk_automation_testNG_prototype</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SignUp Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-bk_automation_testNG_prototype" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for bk_automation_testNG_prototype</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-bk_automation_testNG_prototype" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for bk_automation_testNG_prototype</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_bk_automation_testNG_prototype');
+function tableData_bk_automation_testNG_prototype() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'fillContactInformation_NegativeCase')
+data.setCell(0, 2, 'com.bk_automation_testNG_prototype.testScripts.loginPage.Bk_ContactUsTest_NegativeCase')
+data.setCell(0, 3, 37484);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'fillContactInformation_PositiveCase')
+data.setCell(1, 2, 'com.bk_automation_testNG_prototype.testScripts.loginPage.Bk_ContactUsTest_PositiveCase')
+data.setCell(1, 3, 17052);
+window.suiteTableData['bk_automation_testNG_prototype']= { tableData: data, tableDiv: 'times-div-bk_automation_testNG_prototype'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <div id="times-div-bk_automation_testNG_prototype">
+              </div> <!-- times-div-bk_automation_testNG_prototype -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-bk_automation_testNG_prototype" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for bk_automation_testNG_prototype</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-bk_automation_testNG_prototype" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-bk_automation_testNG_prototype" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bk_automation_testNG_prototype.testScripts.loginPage.Bk_ContactUsTest_NegativeCase</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bk_automation_testNG_prototype.testScripts.loginPage.Bk_ContactUsTest_PositiveCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">303 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.bk_automation_testNG_prototype.testScripts.loginPage.Bk_ContactUsTest_PositiveCase.f...)</span>
+                <span class="method-start">3878 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fillContactInformation_PositiveCase</span>
+                <span class="method-start">14437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=fillContactInformation_PositiveCase status=SUCCESS method=Bk_ContactUsTest_Positive...)</span>
+                <span class="method-start">31491 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">32117 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bk_automation_testNG_prototype.testScripts.loginPage.Bk_ContactUsTest_NegativeCase</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">33094 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.bk_automation_testNG_prototype.testScripts.loginPage.Bk_ContactUsTest_NegativeCase.f...)</span>
+                <span class="method-start">36030 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fillContactInformation_NegativeCase</span>
+                <span class="method-start">41511 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=fillContactInformation_NegativeCase status=FAILURE method=Bk_ContactUsTest_Negative...)</span>
+                <span class="method-start">78998 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">79176 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

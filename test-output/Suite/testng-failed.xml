@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.bk_automation_testNG_prototype.testScripts.loginPage.NidaanLoginTest">
+        <methods>
+          <include name="verifyLogin_ValidCredentials" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.bk_automation_testNG_prototype.testScripts.loginPage.NidaanLoginTest -->
+      <class name="com.bk_automation_testNG_prototype.testScripts.loginPage.SignUpTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.bk_automation_testNG_prototype.testScripts.loginPage.SignUpTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
