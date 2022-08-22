@@ -47,9 +47,9 @@ public class ExtentManager {
 	  .apply();
 		htmlReporter.config().setTheme(Theme.STANDARD);
 	
-		htmlReporter.config().setDocumentTitle("Pipeline Execution Report");
+		htmlReporter.config().setDocumentTitle("Pipeline Execution Report - Azure DevOps");
 		htmlReporter.config().setEncoding("utf-8");
-		htmlReporter.config().setReportName("Pipeline Execution Report");
+		htmlReporter.config().setReportName("Pipeline Execution Report -  Azure DevOps");
 		extent = new ExtentReports();
 		extent.setSystemInfo("OS", System.getProperty("os.name"));
 		extent.setSystemInfo("Browser", ObjectReader.reader.getBrowserType()+"");
