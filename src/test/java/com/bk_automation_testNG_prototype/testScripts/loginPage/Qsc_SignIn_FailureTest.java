@@ -12,7 +12,7 @@ import com.bk_automation_testNG_prototype.testbase.TestBase;
 
 public class Qsc_SignIn_FailureTest extends TestBase {
 
-	@Test(description = "SignIn into QSC staging website with invalid credentials")
+	//@Test(description = "SignIn into QSC staging website with invalid credentials")
 	public void SignIn_FailureTest() throws InterruptedException, IOException {
 
 		QscSignInPage signInPage = new QscSignInPage(driver);
