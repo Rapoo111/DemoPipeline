@@ -1,21 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-22T07:06:02Z" name="Default suite" finished-at="2022-08-22T07:06:41Z" duration-ms="38893">
+  <suite started-at="2022-08-22T07:40:55Z" name="bk_automation_testNG_prototype" finished-at="2022-08-22T07:42:01Z" duration-ms="65880">
     <groups>
     </groups>
-    <test started-at="2022-08-22T07:06:02Z" name="Default test" finished-at="2022-08-22T07:06:41Z" duration-ms="38893">
-      <class name="com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest@46944ca9]" started-at="2022-08-22T12:36:02Z" name="beforeSuite" finished-at="2022-08-22T12:36:02Z" duration-ms="185" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest@46944ca9]" started-at="2022-08-22T12:36:02Z" name="beforeTest" finished-at="2022-08-22T12:36:04Z" duration-ms="1383" status="PASS">
+    <test started-at="2022-08-22T07:40:55Z" name="SignUp Test" finished-at="2022-08-22T07:41:25Z" duration-ms="29886">
+      <class name="com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_SuccessTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_SuccessTest@324a0017]" started-at="2022-08-22T13:10:55Z" name="beforeTest" finished-at="2022-08-22T13:10:57Z" duration-ms="1559" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest@46944ca9]" started-at="2022-08-22T12:36:04Z" name="beforeMethod" finished-at="2022-08-22T12:36:07Z" duration-ms="3872" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_SuccessTest@324a0017]" started-at="2022-08-22T13:10:57Z" name="beforeMethod" finished-at="2022-08-22T13:10:59Z" duration-ms="2626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_SuccessTest.SignIn_SuccessfullTest() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="SignIn_SuccessfullTest()[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_SuccessTest@324a0017]" started-at="2022-08-22T13:10:59Z" name="SignIn_SuccessfullTest" description="SignIn into QSC staging website with valid credentials" finished-at="2022-08-22T13:11:24Z" duration-ms="24894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn_SuccessfullTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_SuccessTest@324a0017]" started-at="2022-08-22T13:11:24Z" name="afterMethod" finished-at="2022-08-22T13:11:25Z" duration-ms="506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignIn_SuccessfullTest status=SUCCESS method=Qsc_SignIn_SuccessTest.SignIn_SuccessfullTest()[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_SuccessTest@324a0017] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_SuccessTest@324a0017]" started-at="2022-08-22T13:11:25Z" name="afterTest" finished-at="2022-08-22T13:11:25Z" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_SuccessTest -->
+    </test> <!-- SignUp Test -->
+    <test started-at="2022-08-22T07:41:25Z" name="Login Test" finished-at="2022-08-22T07:42:01Z" duration-ms="35946">
+      <class name="com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest@4879dfad]" started-at="2022-08-22T13:10:55Z" name="beforeSuite" finished-at="2022-08-22T13:10:55Z" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest@4879dfad]" started-at="2022-08-22T13:11:25Z" name="beforeTest" finished-at="2022-08-22T13:11:26Z" duration-ms="875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest@4879dfad]" started-at="2022-08-22T13:11:26Z" name="beforeMethod" finished-at="2022-08-22T13:11:28Z" duration-ms="2172" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +64,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="SignIn_FailureTest()[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest@46944ca9]" started-at="2022-08-22T12:36:07Z" name="SignIn_FailureTest" description="SignIn into QSC staging website with invalid credentials" finished-at="2022-08-22T12:36:40Z" duration-ms="33010" status="FAIL">
+        <test-method signature="SignIn_FailureTest()[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest@4879dfad]" started-at="2022-08-22T13:11:28Z" name="SignIn_FailureTest" description="SignIn into QSC staging website with invalid credentials" finished-at="2022-08-22T13:12:01Z" duration-ms="32572" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='reflect-profile']"}
@@ -35,8 +73,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'BKLAP136', ip: '192.168.1.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ADITI~1.BAL\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:55605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b49f91eb18cac724f97ef11670cafbaf
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ADITI~1.BAL\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 91a684a5c6b2d88accb30c55ef48de61
 *** Element info: {Using=xpath, value=//div[@class='reflect-profile']}]]>
             </message>
             <full-stacktrace>
@@ -46,8 +84,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'BKLAP136', ip: '192.168.1.32', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ADITI~1.BAL\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:55605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b49f91eb18cac724f97ef11670cafbaf
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ADITI~1.BAL\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:56604}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 91a684a5c6b2d88accb30c55ef48de61
 *** Element info: {Using=xpath, value=//div[@class='reflect-profile']}
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
@@ -96,22 +134,22 @@ Session ID: b49f91eb18cac724f97ef11670cafbaf
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignIn_FailureTest -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest@46944ca9]" started-at="2022-08-22T12:36:40Z" name="afterMethod" finished-at="2022-08-22T12:36:41Z" duration-ms="382" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest@4879dfad]" started-at="2022-08-22T13:12:01Z" name="afterMethod" finished-at="2022-08-22T13:12:01Z" duration-ms="143" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SignIn_FailureTest status=FAILURE method=Qsc_SignIn_FailureTest.SignIn_FailureTest()[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest@46944ca9] output={null}]]]>
+                <![CDATA[[TestResult name=SignIn_FailureTest status=FAILURE method=Qsc_SignIn_FailureTest.SignIn_FailureTest()[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest@4879dfad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest@46944ca9]" started-at="2022-08-22T12:36:41Z" name="afterTest" finished-at="2022-08-22T12:36:41Z" duration-ms="227" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest@4879dfad]" started-at="2022-08-22T13:12:01Z" name="afterTest" finished-at="2022-08-22T13:12:01Z" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Login Test -->
+  </suite> <!-- bk_automation_testNG_prototype -->
 </testng-results>

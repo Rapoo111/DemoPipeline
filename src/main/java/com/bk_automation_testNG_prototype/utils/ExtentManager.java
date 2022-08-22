@@ -47,7 +47,7 @@ public class ExtentManager {
 	  .apply();
 		htmlReporter.config().setTheme(Theme.STANDARD);
 	
-		htmlReporter.config().setDocumentTitle("Behaviorally Automation Report");
+		htmlReporter.config().setDocumentTitle("Pipeline Execution Report");
 		htmlReporter.config().setEncoding("utf-8");
 		htmlReporter.config().setReportName("Pipeline Execution Report");
 		extent = new ExtentReports();

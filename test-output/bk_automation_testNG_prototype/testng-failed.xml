@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [bk_automation_testNG_prototype]" guice-stage="DEVELOPMENT">
-  <test name="SignUp Test(failed)">
-    <classes>
-      <class name="com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_SuccessTest">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
-          <include name="SignIn_SuccessfullTest"/>
-        </methods>
-      </class> <!-- com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_SuccessTest -->
-      <class name="com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest">
-        <methods>
-          <include name="beforeMethod"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
-          <include name="beforeSuite"/>
-        </methods>
-      </class> <!-- com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest -->
-    </classes>
-  </test> <!-- SignUp Test(failed) -->
   <test name="Login Test(failed)">
     <classes>
       <class name="com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_SuccessTest">
