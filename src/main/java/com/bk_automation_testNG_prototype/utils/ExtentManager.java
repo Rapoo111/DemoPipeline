@@ -25,7 +25,7 @@ public class ExtentManager {
 
 	public static ExtentReports getInstance() {
 		if (extent == null) {
-			String location = ResourceHelper.getResourcePath("test-output/extent_report/AutomationReport" + TimeStamp + ".html");
+			String location = ResourceHelper.getResourcePath("test-output/extent_report/BehaviorallyAutomationReport" + TimeStamp + ".html");
 			return createInstance(location);
 		} else {
 			return extent;
@@ -47,9 +47,9 @@ public class ExtentManager {
 	  .apply();
 		htmlReporter.config().setTheme(Theme.STANDARD);
 	
-		htmlReporter.config().setDocumentTitle("Beyond Key Automation Report");
+		htmlReporter.config().setDocumentTitle("Behaviorally Automation Report");
 		htmlReporter.config().setEncoding("utf-8");
-		htmlReporter.config().setReportName("Beyond Key Automation Report");
+		htmlReporter.config().setReportName("Pipeline Execution Report");
 		extent = new ExtentReports();
 		extent.setSystemInfo("OS", System.getProperty("os.name"));
 		extent.setSystemInfo("Browser", ObjectReader.reader.getBrowserType()+"");

@@ -65,5 +65,20 @@ public class PropertyReader implements ConfigReader {
 		}
 		return OR.getProperty("password");
 	}
+	
+	public String getInvalidUserName() {
+		if(System.getProperty("InvalidUserName")!=null){
+			return System.getProperty("InvalidUserName");
+		}
+		return OR.getProperty("InvalidUserName");
+	}
+
+	public String getInvalidPassword() {
+		if(System.getProperty("InvalidPassword")!=null){
+			return System.getProperty("InvalidPassword");
+		}
+		return OR.getProperty("InvalidPassword");
+	}
+	
 
 }

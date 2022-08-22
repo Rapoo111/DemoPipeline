@@ -104,16 +104,16 @@ public class ExcelHelper {
 						System.out.println(cell.getCellType());
 						switch(cell.getCellType()) {
 						case STRING : dataSets[i - 1][j] = cell.getStringCellValue();
-									  System.out.println( dataSets[i - 1][j]);
+									  //System.out.println( dataSets[i - 1][j]);
 									  break;
 							
 						case NUMERIC : String cellText = String.valueOf(cell.getNumericCellValue());
 									   dataSets[i - 1][j] = cellText;
-									   System.out.println( dataSets[i - 1][j]);
+									   //System.out.println( dataSets[i - 1][j]);
 									   break;
 							
 						case BOOLEAN : dataSets[i - 1][j] = String.valueOf(cell.getBooleanCellValue());
-									   System.out.println( dataSets[i - 1][j]);
+									   //System.out.println( dataSets[i - 1][j]);
 										break;
 						}
 

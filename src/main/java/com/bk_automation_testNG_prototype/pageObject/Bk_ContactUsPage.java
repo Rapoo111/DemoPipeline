@@ -1,5 +1,7 @@
 package com.bk_automation_testNG_prototype.pageObject;
 
+import java.util.Random;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -107,6 +109,10 @@ public class Bk_ContactUsPage {
 	}
 	
 	public void fillContactInformationPage() throws InterruptedException {
+		//long startTime = System.currentTimeMillis();
+		//Random random = new Random();
+		//int rand = random.nextInt(1000);
+		  
 		enterFirstName("BK_FirstName");
 		Thread.sleep(1000);
 		enterLastName("BK_LastName");
@@ -114,12 +120,12 @@ public class Bk_ContactUsPage {
 		enterEmailAddress("automationtest@beyondkey.com");
 		Thread.sleep(1000);
 		enterContactNumber("1234567890");
-		Thread.sleep(1000);
 		selectProduct();
-		Thread.sleep(1000);
 		enterNotesMessage("This is a positive test scenario");
-		Thread.sleep(1000);
 		clickOnSubmit();
+		
+		//long endTime = System.currentTimeMillis();
+		//System.out.println("That took " + (endTime - startTime) + " milliseconds");
 
 	}
 	

@@ -3,12 +3,12 @@
 <suite name="bk_automation_testNG_prototype">
   <test  name="SignUp Test">
     <classes>
-	  <class name="com.bk_automation_testNG_prototype.testScripts.loginPage.ContactUsTest_SuccessCase"/>
+	  <class name="com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_SuccessTest"/>
     </classes>
   </test> <!-- Test -->
   <test  name="Login Test">
     <classes>
-      <class name="com.bk_automation_testNG_prototype.testScripts.loginPage.ContactUsTest_FailureCase"/>
+      <class name="com.bk_automation_testNG_prototype.testScripts.loginPage.Qsc_SignIn_FailureTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

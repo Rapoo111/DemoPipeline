@@ -1,0 +1,7 @@
+ Sleep(5000)
+ Send("qscadmin{TAB}")
+ Send("MesaCosta")
+ Sleep(2000)
+Send("{ENTER}")
+Send("{ENTER}")
+Sleep(5000)
